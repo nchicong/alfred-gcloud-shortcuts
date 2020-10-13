@@ -1,0 +1,1 @@
+sed -e '/^  \/\/.*/d' ../products.json > ./products.json

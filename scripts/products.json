@@ -1,0 +1,86 @@
+[
+  {
+    "name": "App Engine",
+    "url": "https://console.cloud.google.com/appengine?project={{.ProjectID}}"
+  },
+  {
+    "name": "BigQuery",
+    "url": "https://console.cloud.google.com/bigquery?project={{.ProjectID}}"
+  },
+  {
+    "name": "Billing",
+    "url": "https://console.cloud.google.com/billing?project={{.ProjectID}}"
+  },
+  {
+    "name": "Cloud Functions",
+    "url": "https://console.cloud.google.com/functions/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Cloud SQL",
+    "url": "https://console.cloud.google.com/sql?project={{.ProjectID}}"
+  },
+  {
+    "name": "Compute Engine",
+    "url": "https://console.cloud.google.com/compute/instances?project={{.ProjectID}}"
+  },
+  {
+    "name": "Console",
+    "url": "https://console.cloud.google.com/home/dashboard?project={{.ProjectID}}"
+  },
+  {
+    "name": "Credentials",
+    "url": "https://console.cloud.google.com/apis/credentials?project={{.ProjectID}}"
+  },
+  {
+    "name": "Firebase Console",
+    "url": "https://console.firebase.google.com/u/0/project/{{.ProjectID}}/overview"
+  },
+  {
+    "name": "IAM & admin",
+    "url": "https://console.cloud.google.com/iam-admin/iam/project?project={{.ProjectID}}"
+  },
+  {
+    "name": "Instance Groups",
+    "url": "https://console.cloud.google.com/compute/instanceGroups/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Kubernetes Engine",
+    "url": "https://console.cloud.google.com/kubernetes/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Load Balancing",
+    "url": "https://console.cloud.google.com/net-services/loadbalancing/loadBalancers/list?project={{.ProjectID}}"
+  },
+  {
+    "name": "Logs",
+    "url": "https://console.cloud.google.com/logs/viewer?project={{.ProjectID}}"
+  },
+  {
+    "name": "Memorystore Redis",
+    "url": "https://console.cloud.google.com/memorystore/redis/instances?project={{.ProjectID}}"
+  },
+  {
+    "name": "PubSub",
+    "url": "https://console.cloud.google.com/cloudpubsub/topicList?project={{.ProjectID}}"
+  },
+  {
+    "name": "Quotas",
+    "url": "https://console.cloud.google.com/iam-admin/quotas?project={{.ProjectID}}"
+  },
+  {
+    "name": "Service Accounts",
+    "url": "https://console.cloud.google.com/iam-admin/serviceaccounts?project={{.ProjectID}}"
+  },
+  {
+    "name": "StackDriver",
+    "url": "https://console.cloud.google.com/monitoring?project={{.ProjectID}}"
+  },
+  {
+    "name": "Stackdriver Profiler",
+    "url": "https://console.cloud.google.com/profiler/_/cpu?project={{.ProjectID}}"
+  },
+  {
+    "name": "Storage",
+    "url": "https://console.cloud.google.com/storage/browser?project={{.ProjectID}}"
+  }
+]
