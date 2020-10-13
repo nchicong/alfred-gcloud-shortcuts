@@ -174,7 +174,7 @@
   {
     "name": "Storage",
     "url": "https://console.cloud.google.com/storage/browser?project={{.ProjectID}}"
-  }
+  },
   // {
   //   "name": "Task queues Cron",
   //   "url": "https://console.cloud.google.com/appengine/taskqueues/cron?project={{.ProjectID}}&tab=CRON"
@@ -187,4 +187,8 @@
   //   "name": "Transfer Service On-Premise",
   //   "url": "https://console.cloud.google.com/transfer/on-premises/jobs?project={{.ProjectID}}"
   // }
+  {
+    "name": "DNS",
+    "url": "https://console.cloud.google.com/net-services/dns/zones?project={{.ProjectID}}"
+  }
 ]

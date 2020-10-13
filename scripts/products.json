@@ -82,5 +82,9 @@
   {
     "name": "Storage",
     "url": "https://console.cloud.google.com/storage/browser?project={{.ProjectID}}"
+  },
+  {
+    "name": "DNS",
+    "url": "https://console.cloud.google.com/net-services/dns/zones?project={{.ProjectID}}"
   }
 ]
