@@ -67,8 +67,12 @@ func FetchGoogleProjects(ctx context.Context) ([]ProjectDescription, error) {
 		}
 		nextPageToken = res.NextPageToken
 		for _, project := range res.Projects {
+			if strings.HasPrefix(project.ProjectId, "sys-") {
+				continue
+			}
+
 			allProjects = append(allProjects, ProjectDescription{
-				Name:   project.Name,
+				Name:   strings.ReplaceAll(project.Name, "-", " "),
 				ID:     project.ProjectId,
 				Number: project.ProjectNumber,
 			})
